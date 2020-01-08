@@ -1,7 +1,7 @@
 def find_element_index(array, value_to_find)
   # Add your solution here
   ndx = 0
-  while array
+  while array[]
   
   
 end
