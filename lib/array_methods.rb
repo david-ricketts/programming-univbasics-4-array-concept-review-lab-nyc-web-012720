@@ -25,7 +25,7 @@ end
 def find_min_value(array)
   # Add your solution here
   min_value = 100 
-  
+  array.length = length
   while array.length.times do |ndx|
     if array[ndx] < min_value
       min_value = array[ndx]
