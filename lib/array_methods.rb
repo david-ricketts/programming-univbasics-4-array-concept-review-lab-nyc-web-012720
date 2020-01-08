@@ -1,7 +1,10 @@
 def find_element_index(array, value_to_find)
   # Add your solution here
   index_location = 0
-  while array.length.times do |ndx|
+  length = array.length
+  
+  
+  length.times do |ndx|
     if array[ndx] == value_to_find
       index_location = ndx
     end
@@ -14,7 +17,7 @@ def find_max_value(array)
   max_value = 0 
   lenght = array.length
   
-  while length.times do |ndx|
+  length.times do |ndx|
     if array[ndx] > max_value
       max_value = array[ndx]
     end
