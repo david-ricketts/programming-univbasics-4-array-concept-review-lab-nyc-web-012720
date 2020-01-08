@@ -1,6 +1,6 @@
 def find_element_index(array, value_to_find)
   # Add your solution here
-  index_location = 0
+  index_location = nil
   length = array.length
   
   
@@ -15,7 +15,7 @@ end
 def find_max_value(array)
   # Add your solution here
   max_value = 0 
-  lenght = array.length
+  length = array.length
   
   length.times do |ndx|
     if array[ndx] > max_value
