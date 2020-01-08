@@ -12,8 +12,9 @@ end
 def find_max_value(array)
   # Add your solution here
   max_value = 0 
+  lenght = array.length
   
-  while array.length.times do |ndx|
+  while length.times do |ndx|
     if array[ndx] > max_value
       max_value = array[ndx]
     end
@@ -25,8 +26,8 @@ end
 def find_min_value(array)
   # Add your solution here
   min_value = 100 
-  array.length = length
-  while array.length.times do |ndx|
+  length = array.length
+  while length.times do |ndx|
     if array[ndx] < min_value
       min_value = array[ndx]
     end
